@@ -1,218 +1,129 @@
-<html lang="en"> 
-
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
-  <title>BUAT UTI</title>
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-
-    * {
-      padding: 0;
-      margin: 0;
-      font-family: "Ubuntu";
-      color: rgb(56, 56, 56);
-    }
-
-    body {
-      background: wheat;
-      /* background-image: url("https://wallpaper.dog/large/10871886.png"); */
-      background-image: linear-gradient(#0a2683, #839aff, #5aaeff);
-      background-position: center;
-      background-size: cover;
-      overflow: hidden;
-      overflow: hidden;
-    }
-
-    .open {
-      background-image: linear-gradient(#ff71c0, #b983ff);
-      height: 100vh;
-      width: 100vw;
-      position: fixed;
-      top: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      align-content: center;
-      justify-content: center;
-      z-index: 1;
-      transition: 0.5s all ease;
-    }
-
-    .open h2 {
-      /* margin: 0 30px; */
-      margin-bottom: 20px;
-      color: rgb(56, 56, 56);
-      text-align: center;
-      max-width: 600px;
-    }
-
-    .open .card {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
-      text-align: center;
-    }
-
-    .open .card h3 {
-      margin-top: 50px;
-    }
-
-    .open .card img {
-      height: 300px;
-    }
-
-    .atas {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .atas img {
-      height: 500px;
-      margin-bottom: 50px;
-      padding: 20px 30px;
-      background: white;
-      border-radius: 20px;
-      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
-    }
-
-    .atas h2 {
-      font-size: 1.5em;
-      padding: 20px 30px;
-      background: white;
-      border-radius: 20px;
-      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
-    }
-
-    p {
-      display: block;
-      text-align: center;
-      color: rgb(56, 56, 56);
-      background: white;
-      font-weight: bold;
-      font-size: 1.5em;
-      padding: 50px 30px;
-      margin: 40px 20px;
-      border-radius: 20px;
-      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
-    }
-
-    p.wm {
-      width: fit-content;
-      margin-top: 100px;
-      margin-bottom: 0;
-      padding: 10px 20px;
-      border-radius: 10px 10px 0 0;
-      font-weight: 500;
-      font-size: .9em;
-      color: red;
-    }
-
-    p.wm a {
-      color: red;
-      text-decoration: none;
-    }
-
-    .material-icons-sharp {
-      color: red;
-      font-size: 30px;
-      transform: translateY(5px);
-      animation: kenyal 2s ease infinite;
-      cursor: pointer;
-    }
-
-    @keyframes kenyal {
-      0% {
-        transform: scale(1) translateY(5px);
-      }
-
-      50% {
-        transform: scale(1.2) translateY(5px);
-      }
-
-      100% {
-        transform: scale(1) translateY(5px);
-      }
-    }
-  </style>
-</head>
-
-<body class="body">
-  <div class="open">
-    <div class="card">
-      <h2></h2>
-      <img onclick="mulai()" src="NGERTI.png" alt="" srcset="" />
-      <h3>Tekan untuk membuka</h3>
-    </div>
-  </div>
-  <div class="atas" id="atas">
-    <img onclick="mulai()" src="LUCU.png" alt="" />
-    <h2>Scroll kebawah ya</h2>
-  </div>
-
-  <p data-aos="zoom-in">semoga kmu ngerti.
-    Mau minta tolong aja ke uti minta tolong di pikiran uti tuh di hapus yang namanya versi lama aku, aku bukan kaya dulu lagi jangan nilai aku karena yang dulu,
-    kamu tuh orng yang bisa bikin aku jadi baik lagi tau tii.
-    Bohong banget tau ti klo aku mau asing sm kmu, kmren aku belum smpet ngomong aja aku ga mau asing sm kmu, tapi aku bakal inget terus pas kita lagi sneng breng bisa bercnda bareng
-    perginya aku juga ngg akan berpengaruh buat kmu ko, tapi aku sneng bisa kenal kmu ngg pernah nyesel kenal kmu atau baik sm kmu.
-    aku ga mau ada hubungan lagi sm kmu ngg mau berharap balik .cara aku sendiri aku punya cara sendiri buat bahagia, aku sneng ngeliat orang lain lebih bahagia dari aku.
-    aku ngg mau apa apa dari kmu aku kya gini ini emng cara aku bahagia ti, aku sneng banget bisa bikin orng lain sneng.
-    aku ga mau ada hubungan sm kmu karena aku tau pasti ujungnya bakal sm kya gini bakal ada perpisahan lagi aku dah sneng kya gini dah nyaman kaya gini ngg ada yang saling nyakitin aku juga dri awal ga ngrasa di sakitin.
-    aku jugaa ngg ada niat ganggu hubungan kmu sm orang baru di hidup kmu ngg mau ganggu kamu sm cwo kmu yang bisa buat uti bahagia terus.
-    kalo emng ada kesempatan balik lagi demi aku cuman mau jadi temen main temen jalan jalan temen sneng sneng aja, sm jadi abang atau kk cwo kmu aku dah bner bner ngg mau ada hubungan yg lebih sm kmu.
-    aku ngg nyari lagi ngg nyari cwe belum punya cwe lagi bukan berharap sm kmu ngg ada sm sekali ti, ini aku dah batesnya udah habis waktunya buat yang namnya cari cwe lagi aku dah nyaman sendiri kya gini
-    aku ya bisa aja cari cwe klo aku mau aku juga tau ujungnya bkal gmna bakal ke ulang lagi aku emng belum pantes buat siapa siapa ti mknya aku mnding sendiri mau memperbaikin diri ada waktunya ko aku dpet cwe yang udah di takdirin sm aku tapi aku ga maksa atau cpet cpet harus ada
-    karena bukan gitu konsepnya tapi mau gimana lagi ngg bakal kesampean juga klo bisa akur lagi ngeliat aku aja kmu buang muka.
-    intinya juga jangan mengenal orang baru kalo belum slese sm masa lalu.
-    Aku smpe...berpikir dulu mntan kmu yng kmu benci depan aku bisa balik lagi bisa bertemen lgi smpe situ aku pikir pikir lagi apa aku salah ya jadi baik apa aku salah jadi lebih baik lagi apa cara aku bodoh.
-    ya mungkin emng caranya gini kmu ga benci lagi sm aku aku klo aku ngg pernah muncul lagi.
-    aku percya yang udah di takdirin buat aku ngg bkal ngelewatin aku, klo yang bukan buat aku bakal punya cara sendiri buat menjauh ti.
-    buang ti pikiran kmu yng dika mah masih ngrepin ngg ada kya gitu.
-    ada msanya sendiri ko aku ga gini lagi aku juga punya kehidupan sendiri kan.
-  </p>
-  <p data-aos="zoom-in">
-    yang jelas aku ngg tau kenapa kamu ngg mau ngeliat aku lagi, Aku cuman minta  biar akur aja ti ngg musuhan kya gini cuman jdi temen bhkan sodara kmu mau sm siapa aja aku dah ga mslh aku ngrasa bersalah banget aku smpe ngrasa aku cwo yg paling jahat yg pernah kmu kenal.
-    Kmu klo emng ga mau liat aku ngg mau ketemu cuman skdr sapa aja.
-    Aku bisa aja ti yang kmu mau aku bner bner ngilang ngg ke rumah lagi tapi ngg gitu carnya ti aku kenal keluarga kmu baik baik aku jhat dong ngg ada alesan apapun aku ngilang ngg ada kbar apa apa dan bahkan kita bner bner ngg bakal ketemu lagi smpe kapanpun krna aku dah di panggil duluan yg namnya umur ngg ada yg tau ti.
-    Hbs ini ngg tau bisa sm sm saling nyapa lagi engga, cuman tuhan aja yang tau.
-    Semoga kmu engga ketemu cwo jahat lagi kya aku yaa ti aku minta maaf
-  </p>
-    <p data-aos="zoom-in">
-      Nanti klo kamu dah lebih dewasa udah kerja bisa cari uang sendiri doa aku semoga kmu ketemu orng orang yg baik terus dpet cwo baik yg lebih baik dari yg kmren kmren ketemu juga sm orang orang yang tulus.
-      tetep semangat terus yaa tii jalan uti pasti kedepanya ngg gampang  tetep usaha jgn gampang nyerah di bantu doa ttep istiqomah apapun jalanya ttep minta doa minta restu sm
-      bapa sm ibu nanti kamu pasti ngrasain klo dah nyari kerja peran doa orng tua sm restu orang tua penting banget biar mudah.
-    </p>
-    <p data-aos="zoom-in">
-     Aku minta maaf klo aku kesanya kya minta berharap lagi sm kmu, maaf kalo di atas ada kata kata yang engga enak.
-     semoga kmu bahagia selalu, yang penting 5 waktunya jangan di lupain.
-    </p>
-
- 
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
-  <script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://feeldreams.github.io/heihbd/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  
+<head>
+<title>Script HTML buat Kamu</title>
+<link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico">
+<meta name="description" content="HTML Replit Coding">
+<!-- 
+  Made with love by Rayys!
+  
+     Blog: https://PalingIT.com
+     Instagram: @rayyarrr
+     TikTok: @rayy4r
+     Email: rayyar0703@gmail.com
+     
+  Thanks to all <3
+-->
+</head>
+<body>
+	
+   <!-- Ganti Audio di sini -->
+   <audio src="https://feeldreams.github.io/djikhlas.mp3" id="linkmp3" class="sembunyi"></audio>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="https://feeldreams.github.io/wp9.jpg" id="wallpaper"/><div id="beneranblur"></div>
+   </div>
+   
+   <div id='Content'>
 
-    var musik = "";
+     <div id="kadoIn">
+       <!-- Tombol Surat --><img src="https://feeldreams.github.io/kadoin.png"/>
+     </div>
+     <p id="ket">Klik Kadonya!</p>
 
-  </script>
-  <script> AOS.init({once: true, }); </script>
-  <script> if (musik == "") {musik = "Kaleb J - Kebutuhan Hati.mp3";} var audio = new Audio(musik); audio.loop = true; audio.autoplay = true; function mulai() {audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; setTimeout(function () {document.querySelector(".open").style.display = "none";}, 1000);} function wa(isi) {window.open("https://api.whatsapp.com/send?text= Makasih ya udah inget ulang tahun aku, di hari spesial ini aku pengin " + isi);} async function tanya() {var {value: kado} = await swal.fire({title: "Di hari spesial ini kamu pengin nya apa?", input: "text", showCancelButton: false, }); if (kado) {await swal.fire("Kirim jawabannya ke wa aku ya"); wa(kado);} else {await swal.fire("Jangan dikosongin dong"); tanya();} } </script>
-  <p class="wm"><span>Dari(Andika)</a></span></p>
+     <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="https://feeldreams.github.io/bunga.gif" id="fotostiker"/>
+         <img src="https://feeldreams.github.io/pusn.gif" id="fotostiker1"/>
+         <img src="https://feeldreams.github.io/pandacoklat.gif" id="fotostiker2"/>
+         <img src="https://feeldreams.github.io/cilukba.gif" id="fotostiker3"/>
+         <img src="https://feeldreams.github.io/pandakuning.gif" id="fotostiker4"/>
+         <img src="https://feeldreams.github.io/emawh.gif" id="fotostiker5"/>
+         
+         <img src="https://feeldreams.github.io/pandacoklat.gif" id="fotostiker6"/>
+     </div>
+     
+     <p id="halo" class="halo"></p>
+     
+     <div><blockquote id='bq' data-text='㋡'>
+       <p id="kalimat">Aku Ada Sesuatu Nih 🤣❤️</p>
+
+       <p id="pesan1">Klik 4 LOVE di Bawah! 😆❤️</p>
+       <div id="kolombaru">
+         <li id="lv1">🤍</li>
+         <li id="lv2">🤍</li>
+         <li id="lv3">🤍</li>
+         <li id="lv4">🤍</li>
+       </div>
+
+       <p id="pesan2">Tunggu...</p>
+       <!-- Pesan -->
+       <p id="pesan3">Ciee.. Ada yang lagi marah 🤣❤️</p>
+       <p id="pesan4">udah atuh neng </p>
+       <p id="pesan5" class="gaya2">kalo marah mulu</p>
+       <p id="pesan6" class="gaya2">ntar cepet tua loh 😆❤️</p>
+       <p id="pesan7" class="gaya2">ntar cantiknya juga ilang</p>
+
+       <p id="pesan8" class="gaya2">Canda wkwwk :v</p>
+       <p id="pesan9" class="gaya2">maapin ya nci gelis❤️</p>
+       <p id="pesan10" class="gaya2">maapin aku dah bikin masalah,di maafin yah?</p>
+
+       <!-- Tombol Lanjut -->
+       <p id="opsL">Klik untuk Lanjut</p>
+     </blockquote></div>
+
+     <!-- Tombol Kirim Pesan -->
+     <div id="Tombol"><a id="By">&#128140; Lanjut</a></div>
+
+     <!-- Pesan Tambahan -->
+     <p id="katatambahan" class="sembunyi">Gajadi deh soalnya kamu bau wleee 😜</p>
+     
+     <!-- Pesan Ditolak -->
+     <div id="pesanditolak">
+       <img id="stikerditolak" src="https://feeldreams.github.io/weee.gif"/>
+       <p id="kataditolak">Yaudah kalo gamau mh 😜</p>
+     </div>
+
+   </div>
+
+<script>
+  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-snowflake"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-snowflake"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:16vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
+	
+  document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.play();fungsiAwal=1;kadoIn.style="transition:all .8s ease;transform:scale(10);opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="display:none";setTimeout(initengahan,300);setTimeout(inipesan,500)}}
+  
+  async function inipesan(){
+    var { value: nama } = await swals.fire({
+           title: 'Masukin Nama Kamu', input: 'text',
+       });
+       if(nama && nama.length < 11){
+         window.nama = nama;
+         vketikhalo="Hai, " + nama + " ✨";
+         mulainama();
+         } else {
+           await swals.fire('Ups!', 'Nama tidak boleh kosong atau lebih dari 10 karakter, ya!');inipesan();
+    }
+  }
+
+  //Variable Pertanyaan Akhir
+  var tanya = 'Mau Kado Gak Nih? 😶❤️';
+  var opstanya = 'Ayo jawab 😆';
+  var tompositif = 'Mau';
+  var tomnegatif = 'Engga';
+    
+    async function menuju(){pesanwhatsapp = "Makasii udah ngucapin " + nama + " ultah ><";await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
+</script>
+<script src="https://feeldreams.github.io/heihbd/script.js"></script>
+<!-- Sampai Sini -->
 </body>
-
-</html>
+  </html>
